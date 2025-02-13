@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f3f4f6;
+}
+.accordion {
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.accordion-item {
+    border-bottom: 1px solid #e6e9ee;
+}
+.accordion-button {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.accordion-button.active {
+    background-color: #c0e2f4;
+}
+.accordion-body {
+    padding: 5px;
+    display: none;
+}
+.accordion-body.active {
+    display: block;
+}
+.font-bold {
+    font-weight: bold;
+}
+.text-pink-500 {
+    color: #ec4899;
+}

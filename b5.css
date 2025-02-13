@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 24px;
+}
+.card-header {
+    position: relative;
+    background-color: #ef4444;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.card-header img {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    width: 64px;
+    height: 64px;
+}
+.card-content {
+    padding: 16px;
+    text-align: center;
+}
+.card-content p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4b5563;
+    margin: 8px 0;
+}
+.card-content span {
+    color: #f97316;
+}
+.card-content .note {
+    color: #6b7280;
+}
+.card-footer{
+    text-align: center;
+}
+.card-footer button {
+    font-weight: bold;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+}
+.card-footer .register {
+    background: linear-gradient(to right, #ef4444, #f97316);
+    color: white;
+    width: 80%;
+    padding: 10px;
+}
+.card-footer .details {
+    margin-top: 10px;
+    border: 2px solid #ef4444;
+    color: #ef4444;
+    background-color: white;
+}
+.card-footer i {
+    margin-right: 8px;
+}
