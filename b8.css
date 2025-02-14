@@ -1,0 +1,106 @@
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-color: #f3f4f6;
+margin: 0;
+font-family: Arial, sans-serif;
+}
+.card {
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+padding: 16px;
+width: 320px;
+}
+.card h2 {
+font-size: 18px;
+font-weight: 600;
+margin: 0;
+}
+.status {
+display: inline-block;
+background-color: #fed7aa;
+color: #dd6b20;
+font-size: 12px;
+font-weight: 600;
+padding: 4px 8px;
+border-radius: 4px;
+margin-top: 8px;
+}
+.info {
+margin-top: 16px;
+}
+.info div {
+display: flex;
+align-items: center;
+font-size: 14px;
+color: #4b5563;
+margin-top: 8px;
+}
+.info div i {
+margin-right: 8px;
+}
+.info div a {
+color: #2563eb;
+margin-left: 4px;
+}
+.progress {
+margin-top: 16px;
+}
+.progress div {
+display: flex;
+justify-content: space-between;
+font-size: 14px;
+color: #4b5563;
+}
+.progress-bar {
+width: 100%;
+background-color: #e5e7eb;
+border-radius: 4px;
+height: 10px;
+margin-top: 4px;
+position: relative;
+}
+.progress-bar-inner {
+background-color: #f97316;
+height: 100%;
+border-radius: 4px;
+width: 76%;
+}
+.dates {
+margin-top: 16px;
+font-size: 14px;
+color: #4b5563;
+}
+.dates div {
+display: flex;
+gap: 5px;
+margin-top: 4px;
+}
+.footer {
+margin-top: 16px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.avatars {
+display: flex;
+}
+.avatars img {
+width: 32px;
+height: 32px;
+border-radius: 50%;
+border: 2px solid white;
+margin-left: -8px;
+}
+.tasks {
+display: flex;
+align-items: center;
+font-size: 14px;
+color: #4b5563;
+}
+.tasks i {
+margin-right: 8px;
+}
